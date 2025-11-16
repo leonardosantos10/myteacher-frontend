@@ -17,6 +17,7 @@ export const ListaStyled = styled('ul')`
     }
 `;
 
+
 export const ListaVazia = styled('h2')`
     text-align: center;
     padding: ${({ theme }) => theme.spacing(20, 0)};
@@ -24,6 +25,7 @@ export const ListaVazia = styled('h2')`
 
 export const ItemLista = styled('li')`
     list-style: none;
+    text-align: center;
 `;
 
 export const Foto = styled('img')`
@@ -42,6 +44,6 @@ export const Valor = styled('p')`
     color: ${({theme}) => theme.palette.primary.main}
 `;
 
-export const Descricao = styled('p')`
+ export const Descricao = styled('p')`
     word-break: break-word;
 `;
